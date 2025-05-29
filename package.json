@@ -1,0 +1,41 @@
+{
+  "name": "md-converter",
+  "version": "1.0.0",
+  "description": "Web application to convert Markdown files to PDF or DOCX",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Build step completed'"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "markdown",
+    "converter",
+    "pdf",
+    "docx",
+    "node.js",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "docx": "^9.5.0",
+    "docx-templates": "^4.14.1",
+    "docxtemplater": "^3.63.2",
+    "express": "^4.21.2",
+    "html-pdf": "^3.0.1",
+    "mammoth": "^1.9.1",
+    "markdown-it": "^14.1.0",
+    "markdown-pdf": "^11.0.0",
+    "multer": "^1.4.5-lts.1",
+    "officegen": "^0.6.5",
+    "pizzip": "^3.2.0",
+    "showdown": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
